@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background: #f0f0f0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  margin: 40px auto;
+  transition: all 0.5s ease;
+  position: relative;
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.scaled {
+  transform: scale(1.5);
+}
+
+.moved-right {
+  left: 100px;
+}
+
+.moved-left {
+  left: -100px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
