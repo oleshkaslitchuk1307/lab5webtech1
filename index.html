@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Анімований сайт</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Анімації за допомогою кнопок</h1>
+
+  <div id="animatedBox" class="box"></div>
+
+  <div>
+    <button onclick="toggleVisibility()">Показати / Сховати</button>
+    <button onclick="toggleScale()">Збільшити / Зменшити</button>
+    <button onclick="moveLeft()">← Вліво</button>
+    <button onclick="moveRight()">Вправо →</button>
+    <button onclick="resetPosition()">Скинути</button>
+  </div>
+
+  <!-- Підключення JavaScript з зовнішнього файлу -->
+  <script src="script.js"></script>
+</body>
+</html>
